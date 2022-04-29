@@ -1,19 +1,19 @@
 {
-    "ip": "84.142.184.143",
+    "ip": "87.186.97.161",
     "location": {
         "country": "DE",
-        "region": "Hessen",
-        "city": "Frankfurt am Main",
-        "lat": 50.11552,
-        "lng": 8.68417,
-        "postalCode": "60559",
+        "region": "Bavaria",
+        "city": "Füssen",
+        "lat": 47.57143,
+        "lng": 10.70171,
+        "postalCode": "",
         "timezone": "+02:00",
-        "geonameId": 2925533
+        "geonameId": 2923507
     },
     "as": {
         "asn": 3320,
         "name": "DTAG",
-        "route": "84.128.0.0/10",
+        "route": "87.128.0.0/10",
         "domain": "https://globalcarrier.telekom.com",
         "type": "NSP"
     },

@@ -9,16 +9,16 @@ const App = () => {
     const [countryData, setCountryData] = useState();
 
     useEffect(() => {
-        // axios.get('test.json')
-        axios.get(process.env.REACT_APP_API_URL)
+        // axios.get(process.env.REACT_APP_API_URL)
+        axios.get('test.json')
             .then(res => {
+                // console.log(res.data);
                 setData(res.data);
                 axios.get(`https://restcountries.com/v3.1/alpha/${res.data.location.country}`)
                     .then(res2 => {
                         res2.data.map(entry => { return setCountryData(entry) });
                     });
             });
-
     }, []);
 
     return (
@@ -28,7 +28,6 @@ const App = () => {
             </header>
             <main className='App-main'>
                 <IpDetails data={data} countryData={countryData} />
-
             </main>
             <footer className='App-footer'>
 

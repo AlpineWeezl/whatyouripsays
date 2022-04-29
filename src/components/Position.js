@@ -6,7 +6,7 @@ const Position = (props) => {
     // console.log(location);
 
     return (
-        <Map height={600} defaultCenter={location} defaultZoom={13}>
+        <Map height={350} defaultCenter={location} defaultZoom={13}>
             <Marker width={50} anchor={location} />
         </Map>
     );
