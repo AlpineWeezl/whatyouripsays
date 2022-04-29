@@ -9,8 +9,8 @@ const App = () => {
     const [countryData, setCountryData] = useState();
 
     useEffect(() => {
-        // axios.get(process.env.REACT_APP_API_URL)
-        axios.get('test.json')
+        // axios.get('test.json')
+        axios.get(process.env.REACT_APP_API_URL)
             .then(res => {
                 // console.log(res.data);
                 setData(res.data);
