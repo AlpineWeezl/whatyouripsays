@@ -1,0 +1,21 @@
+{
+    "ip": "84.142.184.143",
+    "location": {
+        "country": "DE",
+        "region": "Hessen",
+        "city": "Frankfurt am Main",
+        "lat": 50.11552,
+        "lng": 8.68417,
+        "postalCode": "60559",
+        "timezone": "+02:00",
+        "geonameId": 2925533
+    },
+    "as": {
+        "asn": 3320,
+        "name": "DTAG",
+        "route": "84.128.0.0/10",
+        "domain": "https://globalcarrier.telekom.com",
+        "type": "NSP"
+    },
+    "isp": "Deutsche Telekom AG"
+}
